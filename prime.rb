@@ -1,7 +1,5 @@
 def prime?(number)
-  return false if number.negative?
-  return false if number == 0
-  return true if number <=3
+  return true if (number > 1 && number <=3
   return false if (number%2 == 0 || number%3 == 0)
 
   i = 5
