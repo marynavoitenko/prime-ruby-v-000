@@ -9,5 +9,5 @@ def prime?(number)
     i += 6
   end
 
-  return true  
+  return true
 end
